@@ -11,5 +11,8 @@
             "App\\" : "src/"
         }
     },
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "fakerphp/faker": "^1.14"
+    }
 }

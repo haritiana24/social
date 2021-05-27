@@ -11,9 +11,9 @@ use PDO;
 
 class Comment extends Model {
     
-    public $id;
+    public int  $id;
     public $content;
-    public $user_id;
+    public int  $user_id;
     public $commetable_id;
     public $commtable_type;
     public $created_at;

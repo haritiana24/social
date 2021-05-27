@@ -37,4 +37,5 @@ class App{
         header("Location: 404.php");
         exit();
     }
+
 }
